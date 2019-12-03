@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.productCard {
+  width: 200px;
+  margin: 40px;
+  text-align: left;
+}
+
+.buyButton {
+  width: 100%;
+}
+
+button,
+input {
+  background: #fff 0 0 no-repeat padding-box;
+  font-size: 14px;
+  color: #888;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  height: 40px;
+  width: 160px;
+}
+
+.inputBox {
+  margin: 20px 0 50px 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.inputField {
+  width: 340px;
+  height: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+body {
+  color: #888888;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica;
+}
+
+img {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  width: 200px;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+nav a {
+  font-size: 15px;
+  width: 160px;
+  margin: auto;
+}
+
+footer,
+header {
+  background: #707070 0% 0% no-repeat padding-box;
+  align-items: center;
+  padding: 25px 0;
+  color: #ffffff;
+}
+
+/* Header */
+.header1 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.header2 {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 44px auto;
+}
+
+h3 {
+  margin: 14px auto;
+  font-size: 12px;
+}
+
+.productCard h4 {
+  margin: 6px auto;
+  font-size: 16px;
+}
+
+.loadPageButton {
+  width: 260px;
+  margin-bottom: 120px;
+}
+
+.textDescription {
+  margin-bottom: 16px;
+}
+
+label {
+  text-align: left;
+}
+
+form {
+  margin: 50px auto;
+}
