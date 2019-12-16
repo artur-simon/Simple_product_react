@@ -154,3 +154,18 @@ label {
 form {
   margin: 50px auto;
 }
+
+
+@media screen and (max-width: 850px) {
+  nav {
+    flex-flow: column;
+  }
+
+  .inputContainer {
+    flex-flow: row wrap;
+  }
+
+  .inputField {
+    width: 170px;
+  }
+}
