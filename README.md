@@ -2,7 +2,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/crsandeep/Simple_product_react
+git clone https://github.com/artur-simon/Simple_product_react
 
 # Go inside the directory
 cd Simple_product_react
